@@ -1,0 +1,37 @@
+@import 'global.css';
+
+footer {
+  background: var(--primary-color);
+  padding-block: 6rem;
+  margin-top: 8rem;
+}
+
+.footer__title--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & h1 {
+    font-weight: 500;
+    padding-right: 1rem;
+    color: var(--gray);
+    font-size: 2.4rem;
+  }
+}
+
+.footer__info--container {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--ibm-plex-mono);
+  font-size: 1.6rem;
+  color: var(--white);
+  display: grid;
+  gap: 1rem;
+
+  & .footer__info--author {
+    font-weight: 600;
+    & a {
+      color: var(--white);
+    }
+  }
+}

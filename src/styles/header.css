@@ -1,0 +1,18 @@
+@import 'global.css';
+
+header {
+  background-color: var(--primary-color);
+  padding-block: 1rem;
+}
+.header__title--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & h1 {
+    font-weight: 500;
+    padding-right: 1rem;
+    color: var(--gray);
+    font-size: 2.4rem;
+  }
+}
